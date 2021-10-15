@@ -1,0 +1,19 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "baseUrl": "."
+  },
+  "include": [
+    // "/index.d.ts",
+    "src/*",
+    "**/*.ts"
+  ],
+  "exclude": ["node_modules", "./dist/"]
+}
