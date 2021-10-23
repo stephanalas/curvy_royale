@@ -20,7 +20,7 @@ const babelOptions = {
 const config = {
   mode: isProduction ? 'production' : 'development',
   context: path.resolve(__dirname, './src'),
-  entry: './index.ts',
+  entry: './index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
