@@ -138,7 +138,7 @@ function create() {
   // visualize the path
   path.draw(graphics);
   enemies = this.add.group({ classType: Enemy, runChildUpdate: true });
-  defenders = this.add.group({ class: Defender, runChildUpdate: true });
+  defenders = this.add.group({ classType: Defender, runChildUpdate: true });
   this.nextEnemy = 0;
   this.input.on('pointerdown', placeDefender);
 }
